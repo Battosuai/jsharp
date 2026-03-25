@@ -5,13 +5,13 @@ export const BLUE = '\x1b[34m';
 export const RESET = '\x1b[0m';
 
 export function error(message: string) {
-    console.error(`${RED}Error:${RESET} ${message}`);
+    console.error(`${RED}❌ Error:${RESET} ${message}`);
 }
 
 export function success(message: string) {
-    console.log(`${GREEN}${message}${RESET}`);
+    console.log(`${GREEN}✅ Success:${RESET} ${message}`);
 }
 
 export function usage(message: string) {
-    console.log(`${BLUE}${message}${RESET}`);
+    console.log(`${BLUE}ℹ️ Usage:${RESET} ${message}`);
 }

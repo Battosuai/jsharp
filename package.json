@@ -1,0 +1,46 @@
+{
+    "name": "jsharp",
+    "version": "1.0.0",
+    "description": "A CLI to convert and process images using Sharp",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "image",
+        "converter",
+        "sharp",
+        "webp",
+        "png",
+        "jpg"
+    ],
+    "author": "MD. Asifur Rahman <imdjiban@gmail.com>",
+    "license": "MIT",
+    "packageManager": "pnpm@10.12.4",
+    "engines": {
+        "node": ">=18"
+    },
+    "devDependencies": {
+        "@types/node": "^25.5.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^6.0.2"
+    },
+    "bin": {
+        "jsharp": "dist/index.js"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2",
+        "sharp": "^0.34.5"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/jsharp.git"
+    },
+    "preferGlobal": true
+}

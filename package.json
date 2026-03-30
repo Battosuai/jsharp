@@ -24,6 +24,7 @@
     },
     "devDependencies": {
         "@types/node": "^25.5.0",
+        "@types/progress": "^2.0.7",
         "ts-node": "^10.9.2",
         "typescript": "^6.0.2"
     },
@@ -32,6 +33,7 @@
     },
     "dependencies": {
         "node-fetch": "^3.3.2",
+        "progress": "^2.0.3",
         "sharp": "^0.34.5"
     },
     "files": [

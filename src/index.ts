@@ -106,11 +106,12 @@ if (!resize && !outputFormat) {
     getImageMetadata(input)
         .then((meta) => {
             success(`Image metadata: ${JSON.stringify(meta, null, 2)}`);
+            process.exit(0);
         })
         .catch((err) => {
             error(`Failed to read image metadata: ${err.message}`);
+            process.exit(1);
         });
-    process.exit(1);
 }
 
 // ---- validate format ----
